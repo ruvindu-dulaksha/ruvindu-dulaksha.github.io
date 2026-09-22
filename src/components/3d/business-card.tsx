@@ -139,7 +139,7 @@ export default function BusinessCard3D() {
             <div className="flex items-center justify-between z-10 pt-2 border-t border-white/10 text-xs">
               <span className="text-gray-400 font-semibold">Scan QR for vCard</span>
                 <span className="text-cyan-300 flex items-center gap-1 font-bold">
-                <span>ruvindudulaksha.dev</span>
+                <span>ruvindu-dulaksha.github.io</span>
                 <ExternalLink className="w-3 h-3" />
               </span>
             </div>

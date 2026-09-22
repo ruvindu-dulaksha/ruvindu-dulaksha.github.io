@@ -3,7 +3,7 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ruvindudulaksha.dev"),
+  metadataBase: new URL("https://ruvindu-dulaksha.github.io"),
   title: {
     default: "K. D. Ruvindu Dulaksha | Mobile & WordPress Developer Portfolio",
     template: "%s | Ruvindu Dulaksha"
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "Gemini AI Chatbot",
     "Next.js Developer Portfolio"
   ],
-  authors: [{ name: "K. D. Ruvindu Dulaksha", url: "https://ruvindudulaksha.dev" }],
+  authors: [{ name: "K. D. Ruvindu Dulaksha", url: "https://ruvindu-dulaksha.github.io" }],
   creator: "K. D. Ruvindu Dulaksha",
   publisher: "K. D. Ruvindu Dulaksha",
   robots: {
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "K. D. Ruvindu Dulaksha | Mobile & WordPress Developer Portfolio",
     description: "First Class Honours graduate, Gold Medalist & Batch Topper. Flutter, iOS, and WordPress developer portfolio.",
-    url: "https://ruvindudulaksha.dev",
+    url: "https://ruvindu-dulaksha.github.io",
     siteName: "Ruvindu Dulaksha Portfolio",
     images: [
       {
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     creator: "@ruvindudulaksha",
   },
   alternates: {
-    canonical: "https://ruvindudulaksha.dev",
+    canonical: "https://ruvindu-dulaksha.github.io",
   },
   other: {
     "X-Content-Type-Options": "nosniff",
@@ -92,8 +92,8 @@ export default function RootLayout({
     "@type": "Person",
     name: "K. D. Ruvindu Dulaksha",
     alternateName: "Ruvindu Dulaksha",
-    url: "https://ruvindudulaksha.dev",
-    image: "https://ruvindudulaksha.dev/images/hero_developer_v2.png",
+    url: "https://ruvindu-dulaksha.github.io",
+    image: "https://ruvindu-dulaksha.github.io/images/hero_developer_v2.png",
     jobTitle: "Junior Mobile Developer & WordPress Developer",
     alumniOf: [
       {
