@@ -588,7 +588,8 @@ export const WORDPRESS_PROJECTS_DATA: WPProject[] = deepFreeze([
     category: "Corporate",
     description: "Full-featured school website with custom WordPress development, learning resources, and student management.",
     longDescription: "A comprehensive school website built with custom WordPress development for Mirai Japanese School. Features custom themes, learning resource management, student enrollment functionality, and responsive design optimized for all devices.",
-    liveUrl: "#",
+    image: "/images/mirai_japanese_school.png",
+    liveUrl: "https://miraijapaneseschool.com/",
     githubUrl: "https://github.com",
     techStack: ["WordPress", "PHP", "HTML", "CSS", "JavaScript"],
     highlights: [

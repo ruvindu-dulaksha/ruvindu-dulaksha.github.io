@@ -64,7 +64,11 @@ export default function WordPressProjectsSection() {
 
               {/* Desktop Web Browser Frame Mockup or Code/Architecture Preview */}
               {project.image ? (
-                <div className="relative w-full rounded-2xl overflow-hidden mb-4 border border-white/15 bg-slate-900 shadow-lg group-hover:border-cyan-500/40 transition-colors">
+                <div
+                  onClick={() => setSelectedProject(project)}
+                  className="relative w-full rounded-2xl overflow-hidden mb-4 border border-white/15 bg-slate-900 shadow-lg group-hover:border-cyan-500/40 transition-colors cursor-pointer"
+                  title="Click to view full preview"
+                >
                   {/* Browser Window Header Bar */}
                   <div className="h-6 bg-slate-800/90 px-3 flex items-center space-x-1.5 border-b border-white/10">
                     <span className="w-2.5 h-2.5 rounded-full bg-red-500/80 block" />

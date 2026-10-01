@@ -26,7 +26,7 @@ export default function BusinessCard3D() {
 
   return (
     <div className="w-full flex flex-col items-center justify-center py-2">
-      <div 
+      <div
         className="perspective-1000 w-full max-w-[460px] sm:max-w-[500px] h-[280px] sm:h-[300px] cursor-pointer group select-none relative"
         onClick={() => setIsFlipped(!isFlipped)}
         onMouseMove={handleMouseMove}
@@ -43,7 +43,7 @@ export default function BusinessCard3D() {
           {/* FRONT SIDE */}
           <div className="absolute inset-0 backface-hidden glass-panel p-6 flex flex-col justify-between border-2 border-blue-500/40 rounded-[24px] bg-gradient-to-br from-[#111827] via-[#0E172A] to-[#080F1E] shadow-[0_0_35px_rgba(59,130,246,0.25)] overflow-hidden">
             {/* Holographic Sheen Overlay */}
-            <div 
+            <div
               className="absolute inset-0 pointer-events-none opacity-40 bg-gradient-to-tr from-transparent via-cyan-400/25 to-blue-600/35"
               style={{
                 transform: `translate(${mousePos.x * 35}px, ${mousePos.y * 35}px)`
@@ -54,17 +54,17 @@ export default function BusinessCard3D() {
             <div className="flex items-center justify-between z-10">
               <div className="flex items-center space-x-3">
                 <div className="relative w-11 h-11 rounded-2xl overflow-hidden bg-white/5 border border-cyan-400/40 p-1 flex items-center justify-center shadow-[0_0_20px_rgba(6,182,212,0.4)] flex-shrink-0">
-                  <Image 
-                    src="/rd-logo.png" 
-                    alt="RD Logo" 
-                    width={44} 
-                    height={44} 
-                    className="object-contain" 
+                  <Image
+                    src="/rd-logo.png"
+                    alt="RD Logo"
+                    width={44}
+                    height={44}
+                    className="object-contain"
                   />
                 </div>
                 <div>
                   <h4 className="text-base font-extrabold text-white tracking-wide">{PORTFOLIO_OWNER.name}</h4>
-                  <p className="text-xs text-cyan-400 font-bold tracking-wider uppercase">Flutter, iOS &amp; WP Dev</p>
+                  <p className="text-xs text-cyan-400 font-bold tracking-wider">Flutter, iOS &amp; WP Dev</p>
                 </div>
               </div>
               <div className="flex items-center space-x-1.5 bg-blue-500/15 px-2.5 py-1 rounded-full border border-blue-400/30">
@@ -138,7 +138,7 @@ export default function BusinessCard3D() {
             {/* Back Footer */}
             <div className="flex items-center justify-between z-10 pt-2 border-t border-white/10 text-xs">
               <span className="text-gray-400 font-semibold">Scan QR for vCard</span>
-                <span className="text-cyan-300 flex items-center gap-1 font-bold">
+              <span className="text-cyan-300 flex items-center gap-1 font-bold">
                 <span>ruvindu-dulaksha.github.io</span>
                 <ExternalLink className="w-3 h-3" />
               </span>
